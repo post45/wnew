@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beeline Construction</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="social-media">
+        <a
+          href="https://www.facebook.com/profile.php?id=61576615040567&mibextid=wwXIfr">
+          <i
+            class="fa fa-facebook-f"
+            style="font-size: 24px; color: #1877f2"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/bee_lineconstruction?igsh=MTNiYnY1MWwwbXh2cg%3D%3D&utm_source=qr">
+          <i
+            class="fa fa-instagram"
+            style="font-size: 24px; color: #e1306c"></i>
+        </a>
+        <a
+          href="https://www.yelp.com/biz/beeline-construction-walnut-creek?override_cta=Request+a+consultation">
+          <i class="fa fa-yelp" style="font-size: 24px; color: #d32323"></i>
+        </a>
+        <a href="https://www.youtube.com/beelineconstraction">
+          <i
+            class="fa fa-youtube-play"
+            style="font-size: 24px; color: #ff0000"></i>
+        </a>
+      </div>
+      <div class="logo">
+        <img src="logo 1.png" alt="Logo" />
+      </div>
+      <div class="contact-info">
+        <h3>
+          <a href="tel:+19252121525" style="color: #005243; font-weight: 600">
+            (925) 212-1525
+          </a>
+        </h3>
+      </div>
+    </header>
+
+    <nav>
+      <a style="color: #005243" href="index.html">HOME</a>
+      <a style="color: #005243" href="services.html">SERVICES</a>
+      <a style="color: #005243" href="portfolio.html">PORTFOLIO</a>
+      <a style="color: #005243" href="contact.html">CONTACT</a>
+      <a style="color: #005243" href="privacy-policy.html">PRIVACY POLICY</a>
+    </nav>
+
+    <main style="max-width: 700px; margin: 40px auto; padding: 20px">
+      <h1 style="text-align: center; font-weight: 600">Contact Us</h1>
+
+      <form
+        action="https://formsubmit.co/beelineconstraction14@gmail.com"
+        method="POST"
+        enctype="multipart/form-data"
+        style="display: flex; flex-direction: column; gap: 20px">
+        <!-- Formsubmit hidden fields -->
+        <input
+          type="hidden"
+          name="_subject"
+          value="New Contact Form Submission - Beeline Construction" />
+        <input
+          type="hidden"
+          name="_next"
+          value="https://yourdomain.com/thank-you.html" />
+        <input type="hidden" name="_captcha" value="false" />
+
+        <div>
+          <label for="name" style="font-weight: 600">Name*</label><br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            style="
+              width: 100%;
+              padding: 10px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+            " />
+        </div>
+        <div>
+          <label for="email" style="font-weight: 600">Email*</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            style="
+              width: 100%;
+              padding: 10px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+            " />
+        </div>
+        <div>
+          <label for="phone" style="font-weight: 600">Phone*</label><br />
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            required
+            style="
+              width: 100%;
+              padding: 10px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+            " />
+        </div>
+        <div>
+          <label for="message" style="font-weight: 600">Message</label><br />
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            style="
+              width: 100%;
+              padding: 10px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+            "></textarea>
+        </div>
+        <div>
+          <label
+            for="file-upload"
+            style="
+              cursor: pointer;
+              color: #005243;
+              font-weight: 600;
+              display: inline-block;
+            ">
+            <i class="fa fa-paperclip" style="margin-right: 8px"></i>Attach File
+          </label>
+          <input
+            type="file"
+            id="file-upload"
+            name="attachment"
+            style="display: none" />
+        </div>
+        <button
+          type="submit"
+          style="
+            padding: 8px 16px;
+            background-color: #005243;
+            color: white;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 14px;
+            display: inline-block;
+            width: auto;
+          ">
+          Send
+        </button>
+
+        <div
+          id="form-message"
+          style="margin-top: 20px; font-weight: 600; color: #005243">
+          <!-- Optional: Your message was sent successfully -->
+        </div>
+      </form>
+
+      <div style="margin-top: 40px; text-align: center">
+        <h2 style="font-weight: 600">Ready to Discuss Your Project?</h2>
+        <p style="font-size: 16px; margin-top: 10px">
+          Reach out today for a free consultation. We're happy to answer
+          questions and help make your project a reality.
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 BEELINE CONSTRUCTION INC. ALL RIGHTS RESERVED.</p>
+      <p>LIC #1137040</p>
+    </footer>
+  </body>
+</html>

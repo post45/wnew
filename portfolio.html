@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beeline Construction</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="social-media">
+        <a
+          href="https://www.facebook.com/profile.php?id=61576615040567&mibextid=wwXIfr"
+          ><i
+            class="fa fa-facebook-f"
+            style="font-size: 24px; color: #1877f2"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/bee_lineconstruction?igsh=MTNiYnY1MWwwbXh2cg%3D%3D&utm_source=qr"
+          ><i
+            class="fa fa-instagram"
+            style="font-size: 24px; color: #e1306c"></i
+        ></a>
+        <a
+          href="https://www.yelp.com/biz/beeline-construction-walnut-creek?override_cta=Request+a+consultation
+"
+          ><i class="fa fa-yelp" style="font-size: 24px; color: #d32323"></i
+        ></a>
+        <a
+          href="https://www.youtube.com/beelineconstraction
+"
+          ><i
+            class="fa fa-youtube-play"
+            style="font-size: 24px; color: #ff0000"></i
+        ></a>
+      </div>
+      <div class="logo">
+        <img src="logo 1.png" alt="Logo" />
+      </div>
+      <div class="contact-info">
+        <h3>
+          <a href="tel:+19252121525" style="color: #005243; font-weight: 600">
+            (925) 212-1525
+          </a>
+        </h3>
+      </div>
+    </header>
+
+     <nav>
+      <a style="color: #005243" href="index.html">HOME</a>
+      <a style="color: #005243" href="services.html">SERVICES</a>
+      <a style="color: #005243" href="portfolio.html">PORTFOLIO</a>
+      <a style="color: #005243" href="contact.html">CONTACT</a>
+      <a style="color: #005243" href="privacy-policy.html">PRIVACY POLICY</a>
+    </nav>
+<body>
+   <div style="max-width: 900px; margin: 50px auto; position: relative">
+      <!-- Large Image with Overlay Click Zones -->
+      <div style="position: relative; width: 100%; height: auto">
+        <img
+          id="mainImage"
+          src="img/b1.webp"
+          alt="Main"
+          style="width: 100%; height: auto; border-radius: 10px" />
+
+        <!-- Full left clickable zone -->
+        <div
+          onclick="scrollGallery(-1)"
+          style="
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 50%;
+            cursor: pointer;
+            z-index: 2;
+          "></div>
+
+        <!-- Full right clickable zone -->
+        <div
+          onclick="scrollGallery(1)"
+          style="
+            position: absolute;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: 50%;
+            cursor: pointer;
+            z-index: 2;
+          "></div>
+
+        <!-- Left Arrow Button -->
+        <button
+          onclick="scrollGallery(-1)"
+          style="
+            position: absolute;
+            top: 50%;
+            left: 15px;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.4);
+            color: white;
+            border: none;
+            font-size: 24px;
+            padding: 10px;
+            border-radius: 4%;
+            cursor: pointer;
+            z-index: 3;
+          ">
+          &#10094;
+        </button>
+
+        <!-- Right Arrow Button -->
+        <button
+          onclick="scrollGallery(1)"
+          style="
+            position: absolute;
+            top: 50%;
+            right: 15px;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.4);
+            color: white;
+            border: none;
+            font-size: 24px;
+            padding: 10px;
+            border-radius: 4%;
+            cursor: pointer;
+            z-index: 3;
+          ">
+          &#10095;
+        </button>
+      </div>
+
+      <!-- Thumbnails -->
+      <div
+        id="thumbnailRow"
+        style="
+          display: flex;
+          justify-content: center;
+          gap: 8px;
+          margin-top: 15px;
+          overflow-x: auto;
+          padding-bottom: 10px;
+        ">
+        <img
+          src="img/b2.jpg"
+          onclick="setMainImage(this)"
+          style="
+            width: 80px;
+            border-radius: 4px;
+            cursor: pointer;
+            border: 2px solid #ccc;
+          " />
+          <img
+          src="img/b3.jpg"
+          onclick="setMainImage(this)"
+          style="
+            width: 80px;
+            border-radius: 4px;
+            cursor: pointer;
+            border: 2px solid #ccc;
+          " />
+          <img
+          src="img/b4.jpg"
+          onclick="setMainImage(this)"
+          style="
+            width: 80px;
+            border-radius: 4px;
+            cursor: pointer;
+            border: 2px solid #ccc;
+          " />
+          <img
+          src="img/b7.jpg"
+          onclick="setMainImage(this)"
+          style="
+            width: 80px;
+            border-radius: 4px;
+            cursor: pointer;
+            border: 2px solid #ccc;
+          " />
+        <img
+          src="11rs=w_2320,h_1546.webp"
+          onclick="setMainImage(this)"
+          style="
+            width: 80px;
+            border-radius: 4px;
+            cursor: pointer;
+            border: 2px solid #ccc;
+          " />
+        <img
+          src="22rs=w_2320,h_1546.webp"
+          onclick="setMainImage(this)"
+          style="
+            width: 80px;
+            border-radius: 4px;
+            cursor: pointer;
+            border: 2px solid #ccc;
+          " />
+        <img
+          src="33rc.jpg"
+          onclick="setMainImage(this)"
+          style="
+            width: 80px;
+            border-radius: 4px;
+            cursor: pointer;
+            border: 2px solid #ccc;
+          " />
+        <img
+          src="44rs=w_2320,h_1546.webp"
+          onclick="setMainImage(this)"
+          style="
+            width: 80px;
+            border-radius: 4px;
+            cursor: pointer;
+            border: 2px solid #ccc;
+          " />
+        <img
+          src="55rs=w_2320,h_1546.webp"
+          onclick="setMainImage(this)"
+          style="
+            width: 80px;
+            border-radius: 4px;
+            cursor: pointer;
+            border: 2px solid #ccc;
+          " />
+        <img
+          src="66rs=w_2320,h_1546.webp"
+          onclick="setMainImage(this)"
+          style="
+            width: 80px;
+            border-radius: 4px;
+            cursor: pointer;
+            border: 2px solid #ccc;
+          " />
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+      const mainImage = document.getElementById("mainImage");
+      const thumbnails = document.querySelectorAll("#thumbnailRow img");
+      let currentIndex = 0;
+
+      function setMainImage(img) {
+        mainImage.src = img.src;
+        currentIndex = Array.from(thumbnails).indexOf(img);
+      }
+
+      function scrollGallery(direction) {
+        currentIndex += direction;
+        if (currentIndex < 0) currentIndex = thumbnails.length - 1;
+        if (currentIndex >= thumbnails.length) currentIndex = 0;
+        mainImage.src = thumbnails[currentIndex].src;
+      }
+
+      // Auto-scroll every 7 seconds
+      setInterval(() => {
+        scrollGallery(1);
+      }, 7000);
+    </script>
+
+    <footer>
+      <p style="color: #005243">
+        &copy; 2020 BEELINE CONSTRUCTION INC. ALL RIGHTS RESERVED.
+      </p>
+      <p style="color: #005243">LIC #1137040</p>
+    </footer>
+  </body>
+</html>
+  
+
