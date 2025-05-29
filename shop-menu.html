@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shop Menu - Beeline Construction</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #fff;
+        color: #222;
+      }
+      header,
+      nav {
+        background-color: #333;
+        color: white;
+        padding: 1rem 2rem;
+      }
+      header h1 {
+        margin: 0;
+        font-weight: 700;
+        font-size: 1.5rem;
+      }
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 1rem;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      main {
+        padding: 2rem;
+        max-width: 900px;
+        margin: 0 auto;
+      }
+      h2 {
+        font-weight: 700;
+        border-bottom: 2px solid #ccc;
+        padding-bottom: 0.25rem;
+        margin-top: 2rem;
+      }
+      ul.category-list,
+      ul.subcategory-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 0.5rem 0 2rem 0;
+      }
+      ul.subcategory-list {
+        padding-left: 1rem;
+      }
+      ul.category-list li,
+      ul.subcategory-list li {
+        margin-bottom: 0.5rem;
+      }
+      a.menu-link {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      a.menu-link:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Beeline Construction</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop-menu.html" aria-current="page">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>Shop Categories</h2>
+
+      <section>
+        <h3>Furniture</h3>
+        <ul class="category-list">
+          <li>
+            <a href="/collections/living-room" class="menu-link"
+              >Living Room Furniture</a
+            >
+          </li>
+          <li>
+            <a href="/collections/bedroom" class="menu-link"
+              >Bedroom Furniture</a
+            >
+          </li>
+          <li>
+            <a href="/collections/dining-room" class="menu-link"
+              >Dining Room Furniture</a
+            >
+          </li>
+          <li>
+            <a href="/collections/office" class="menu-link">Office Furniture</a>
+          </li>
+          <li>
+            <a href="/collections/kids" class="menu-link">Kids Furniture</a>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Lighting</h3>
+        <ul class="category-list">
+          <li>
+            <a href="/collections/ceiling" class="menu-link"
+              >Ceiling Lighting</a
+            >
+          </li>
+          <li>
+            <a href="/collections/table" class="menu-link">Table Lighting</a>
+          </li>
+          <li>
+            <a href="/collections/floor" class="menu-link">Floor Lighting</a>
+          </li>
+          <li>
+            <a href="/collections/wall" class="menu-link">Wall Lighting</a>
+          </li>
+          <li>
+            <a href="/collections/outdoor" class="menu-link"
+              >Outdoor Lighting</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Decor</h3>
+        <ul class="category-list">
+          <li><a href="/collections/rugs" class="menu-link">Rugs</a></li>
+          <li><a href="/collections/art" class="menu-link">Art</a></li>
+          <li><a href="/collections/mirrors" class="menu-link">Mirrors</a></li>
+          <li><a href="/collections/vases" class="menu-link">Vases</a></li>
+          <li>
+            <a href="/collections/decorative-objects" class="menu-link"
+              >Decorative Objects</a
+            >
+          </li>
+          <li>
+            <a href="/collections/candles" class="menu-link"
+              >Candles + Holders</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Outdoor</h3>
+        <ul class="category-list">
+          <li>
+            <a href="/collections/outdoor-furniture" class="menu-link"
+              >Outdoor Furniture</a
+            >
+          </li>
+          <li>
+            <a href="/collections/outdoor-accessories" class="menu-link"
+              >Outdoor Accessories</a
+            >
+          </li>
+          <li>
+            <a href="/collections/outdoor-dining" class="menu-link"
+              >Outdoor Dining</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer
+      style="
+        background: #eee;
+        padding: 1rem;
+        text-align: center;
+        font-size: 0.9rem;
+      ">
+      &copy; 2025 Beeline Construction. All rights reserved.
+    </footer>
+  </body>
+</html>
